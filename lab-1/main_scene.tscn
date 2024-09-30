@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bi5nswbqcm2je"]
+
+[ext_resource type="Texture2D" uid="uid://d2i4mxef6dfd0" path="res://Assers/main scene.png" id="1_7gd00"]
+
+[node name="MainScene" type="Sprite2D"]
+position = Vector2(407, 502)
+texture = ExtResource("1_7gd00")

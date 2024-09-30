@@ -1,0 +1,75 @@
+[gd_scene format=3 uid="uid://clom0n1fi4qnd"]
+
+[node name="Tree" type="Node2D"]
+position = Vector2(233, 357)
+scale = Vector2(0.2, 0.2)
+
+[node name="Trunk" type="ColorRect" parent="."]
+offset_left = 3476.0
+offset_top = -506.0
+offset_right = 3840.0
+offset_bottom = 1414.0
+color = Color(0.380697, 0.246653, 9.62615e-08, 1)
+
+[node name="Leaves" type="ColorRect" parent="."]
+offset_left = 2785.45
+offset_top = -244.015
+offset_right = 3135.45
+offset_bottom = 91.9853
+color = Color(0.0156863, 0.415686, 0.0352941, 1)
+
+[node name="Leaves2" type="ColorRect" parent="."]
+offset_left = 4185.08
+offset_top = -244.015
+offset_right = 4535.08
+offset_bottom = 91.9853
+color = Color(0.0156863, 0.415686, 0.0352941, 1)
+
+[node name="Leaves3" type="ColorRect" parent="."]
+offset_left = 3485.27
+offset_top = -248.619
+offset_right = 3835.27
+offset_bottom = 87.3812
+color = Color(0.0156863, 0.415686, 0.0352941, 1)
+
+[node name="Leaves7" type="ColorRect" parent="."]
+offset_left = 3835.18
+offset_top = -699.816
+offset_right = 4185.17
+offset_bottom = -363.816
+color = Color(0.0156863, 0.415686, 0.0352941, 1)
+
+[node name="Leaves8" type="ColorRect" parent="."]
+offset_left = 3135.36
+offset_top = -704.42
+offset_right = 3485.36
+offset_bottom = -368.42
+color = Color(0.0156863, 0.415686, 0.0352941, 1)
+
+[node name="Leaves9" type="ColorRect" parent="."]
+offset_left = 3485.27
+offset_top = -916.206
+offset_right = 3835.27
+offset_bottom = -580.206
+color = Color(0.0156863, 0.415686, 0.0352941, 1)
+
+[node name="Leaves4" type="ColorRect" parent="."]
+offset_left = 3135.36
+offset_top = -368.324
+offset_right = 3485.36
+offset_bottom = -32.3241
+color = Color(0.0156863, 0.580392, 0.0352941, 1)
+
+[node name="Leaves5" type="ColorRect" parent="."]
+offset_left = 3835.18
+offset_top = -368.324
+offset_right = 4185.17
+offset_bottom = -32.3241
+color = Color(0.0156863, 0.580392, 0.0352941, 1)
+
+[node name="Leaves6" type="ColorRect" parent="."]
+offset_left = 3485.27
+offset_top = -584.715
+offset_right = 3835.27
+offset_bottom = -248.715
+color = Color(0.0156863, 0.580392, 0.0352941, 1)

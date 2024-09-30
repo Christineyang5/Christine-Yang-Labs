@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://tpxwbu0gqrxt"]
+
+[ext_resource type="PackedScene" uid="uid://bi5nswbqcm2je" path="res://main_scene.tscn" id="1_xnoow"]
+[ext_resource type="PackedScene" uid="uid://clom0n1fi4qnd" path="res://tree.tscn" id="2_vs1bs"]
+[ext_resource type="Texture2D" uid="uid://bsf7slouhslny" path="res://Assers/Sprite 1.png" id="3_x6njr"]
+[ext_resource type="Texture2D" uid="uid://dugwy7tpff5ot" path="res://Assers/Sprite 2.png" id="4_ctx8i"]
+
+[node name="lab 1" type="Sprite2D"]
+
+[node name="MainScene" parent="." instance=ExtResource("1_xnoow")]
+position = Vector2(578, 323)
+scale = Vector2(0.2296, 0.229286)
+
+[node name="Forest" type="Sprite2D" parent="."]
+
+[node name="Tree" parent="Forest" instance=ExtResource("2_vs1bs")]
+position = Vector2(173, 367)
+
+[node name="Tree2" parent="Forest" instance=ExtResource("2_vs1bs")]
+position = Vector2(-358, 325)
+scale = Vector2(0.13, 0.13)
+
+[node name="Tree3" parent="Forest" instance=ExtResource("2_vs1bs")]
+position = Vector2(-124, 367)
+scale = Vector2(0.12, 0.12)
+
+[node name="Sprite1" type="Sprite2D" parent="."]
+position = Vector2(397, 486)
+scale = Vector2(0.13, 0.13)
+texture = ExtResource("3_x6njr")
+
+[node name="Sprite2" type="Sprite2D" parent="."]
+position = Vector2(757, 561)
+scale = Vector2(0.19, 0.19)
+texture = ExtResource("4_ctx8i")
