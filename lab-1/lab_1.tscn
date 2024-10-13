@@ -1,15 +1,19 @@
-[gd_scene load_steps=5 format=3 uid="uid://tpxwbu0gqrxt"]
+[gd_scene load_steps=8 format=3 uid="uid://tpxwbu0gqrxt"]
 
 [ext_resource type="PackedScene" uid="uid://bi5nswbqcm2je" path="res://main_scene.tscn" id="1_xnoow"]
 [ext_resource type="PackedScene" uid="uid://clom0n1fi4qnd" path="res://tree.tscn" id="2_vs1bs"]
+[ext_resource type="Script" path="res://main_scene.gd" id="2_xfdnc"]
 [ext_resource type="Texture2D" uid="uid://bsf7slouhslny" path="res://Assers/Sprite 1.png" id="3_x6njr"]
+[ext_resource type="Script" path="res://sprite_1.gd" id="4_6bdq4"]
 [ext_resource type="Texture2D" uid="uid://dugwy7tpff5ot" path="res://Assers/Sprite 2.png" id="4_ctx8i"]
+[ext_resource type="Script" path="res://sprite_2.gd" id="5_xgehv"]
 
 [node name="lab 1" type="Sprite2D"]
 
 [node name="MainScene" parent="." instance=ExtResource("1_xnoow")]
 position = Vector2(578, 323)
 scale = Vector2(0.2296, 0.229286)
+script = ExtResource("2_xfdnc")
 
 [node name="Forest" type="Sprite2D" parent="."]
 
@@ -28,8 +32,10 @@ scale = Vector2(0.12, 0.12)
 position = Vector2(397, 486)
 scale = Vector2(0.13, 0.13)
 texture = ExtResource("3_x6njr")
+script = ExtResource("4_6bdq4")
 
 [node name="Sprite2" type="Sprite2D" parent="."]
 position = Vector2(757, 561)
 scale = Vector2(0.19, 0.19)
 texture = ExtResource("4_ctx8i")
+script = ExtResource("5_xgehv")
